@@ -26,6 +26,36 @@ function App() {
             <label for="country">Country:</label><br></br>
             <input type="text" id="country" name="country" required/><br></br>
           </div>
+          <a href="#Social_Profiles">Next</a>{/*If possible make this button that make sures that all fields are entered properly*/}
+        </div>
+      </div>
+      <div className="section-container" id="Social_Profiles">
+        <div className="section-main">
+          <label for="linkedin">LinkedIn:</label><br></br>
+          <input type="url" id="linkedin" name="linkedin"/><br></br>
+          <label for="github">Github:</label><br></br>
+          <input type="url" id="github" name="github"/><br></br>
+          <a href="#Personal_info">Back</a><br></br>
+          <a href="#Education">Next</a>
+        </div>
+      </div>
+      <div className="section-container" id="Education">
+        <div className="section-main">
+          <label for="e_name">Name:</label><br></br>
+          <input type="text" id="e_name" name="e_name" required/><br></br>
+          <label for="e_url">URL:</label><br></br>
+          <input type="url" id="e_url" name="e_url" required/><br></br>
+          <label for="e_degree">Degree:</label><br></br>
+          <input type="text" id="e_degree" name="e_degree" required/><br></br>
+          <label for="e_major">Major:</label><br></br>
+          <input type="text" id="e_major" name="e_major" required/><br></br>
+          <label for="e_start">Start Date:</label><br></br>
+          <input type="date" id="e_start" name="e_start" required/><br></br>
+          <label for="e_end">End Date:</label><br></br>
+          <input type="date" id="e_end" name="e_end" required/><br></br>
+          <label for="e_location">Location:</label><br></br>
+          <input type="text" id="e_location" name="e_location" required/><br></br>
+          <a href="#Social_Profiles">Back</a><br></br>
           <a href="#">Next</a>
         </div>
       </div>
