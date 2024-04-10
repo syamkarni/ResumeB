@@ -4,6 +4,13 @@ function App() {
   return (
     <div className="App">
       <form autocomplete="on">
+      <div className="section-container" id="Description">
+        <div className="section-main">
+          <label for="about">About:</label><br></br>
+          <textarea id="about" name="about" required></textarea><br></br>
+          <a href="#Personal_info">Next</a><br></br>
+        </div>
+      </div>
       <div className="section-container" id="Personal_info">
         <div className="section-main">
           <label for="fname">First Name:</label><br></br>
@@ -26,6 +33,7 @@ function App() {
             <label for="country">Country:</label><br></br>
             <input type="text" id="country" name="country" required/><br></br>
           </div>
+          <a href="#Description ">Back</a><br></br>
           <a href="#Social_Profiles">Next</a>{/*If possible make this button that make sures that all fields are entered properly*/}
         </div>
       </div>
@@ -55,6 +63,7 @@ function App() {
           <input type="date" id="e_end" name="e_end" required/><br></br>
           <label for="e_location">Location:</label><br></br>
           <input type="text" id="e_location" name="e_location" required/><br></br>
+          <button>Add</button><br></br>
           <a href="#Social_Profiles">Back</a><br></br>
           <a href="#">Next</a>
         </div>
